@@ -1,0 +1,55 @@
+.content {
+    display: inline-flex;
+    flex: 1 1 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: 600px;
+    max-width: 800px;
+}
+.content > div {
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.content img {
+    vertical-align: top;
+    width: 200px;
+    height: 150px;
+}
+.content p {
+    max-width: 200px;
+    font-size: 13px;
+}
+/* */
+#bg2{
+    display: none;
+}
+#bg3 {
+    display: none;
+}
+#bg4 {
+    display: none;
+}
+/* */
+#ev2{
+    display: none;
+}
+#ev3 {
+    display: none;
+}
+#ev4 {
+    display: none;
+}
+/* */
+#px2 {
+    display: none;
+}
+#px3 {
+    display: none;
+}
+#px4 {
+    display: none;
+}
+#px5 {
+    display: none;
+}

@@ -1,0 +1,47 @@
+.StyleSla {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+}
+/*.headTop {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo {
+    margin: 0px;
+    max-width: 100%;
+    display: flex;
+    flex: 1 1;
+    flex-wrap: wrap;
+}*/
+.Footer {
+    color: white;
+    background-color: #1E1F22;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1F22;
+}
+.VideoGame {
+    color: white;
+    font-size: 50px;
+}

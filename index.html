@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/modal-content.css">
+    <link href="/img/main/favicon.ico" rel="icon" type="image/x-icon"/>
+    <title>Trabalho de English</title>
+
+</head>
+<body>
+  <section>
+    <h1 class="VideoGame">VideoGame Timeline</h1>
+  </section>
+    <div class="container">
+        <div id="reveal" class="timeline">
+          <ul>
+            <li>
+              <div id="reveal" class="timeline-content" onclick="box('modal-container-1')">
+                <h3 class="date">1970 - 1988</h3>
+                <h1 class="timeline-title">The Beginning</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </li>
+            <li>
+              <div id="reveal" class="timeline-content" onclick="box('modal-container-2')">
+                <h3 class="date">1989 - 2000</h3>
+                <h1 class="timeline-title">Evolution of The 2D and The start of The 3D</h1>
+                <p></p>
+              </div>
+            </li>
+            <li>
+              <div id="reveal" class="timeline-content" onclick="box('modal-container-3')">
+                <h3 class="date">2001 - 2010</h3>
+                <h1 class="timeline-title">Title?</h1>
+                <p>It was in this decade that the Xbox console emerged and the PlayStation began to be more recognized, which are nowadays giant companies and it was between this interval of years that video games stopped focusing on children only and began to invest more in games aimed at the older audience.</p>
+              </div>
+            </li>
+            <li>
+              <div id="reveal" class="timeline-content" onclick="box('modal-container-4')">
+                <h3 class="date">2011 - Now</h3>
+                <h1 class="timeline-title">How it's now</h1>
+                <p></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </header>
+    <div id="reveal" class="Footer">
+    <a href="/" class="a"><img src="/img/main/logo.png" class="logo" width="250px" height="100px"></a>
+      <nav>
+        <ul class="StyleSla">
+          <h3 class="StyleSla">Group:</h3>
+          <p class="StyleSla">Eduardo Affonso Boide Santos N°6<br>João Alexandre Previero Brondino N°16<br>Lucas Silva Guimarães N°22<br>Luís Fernando Aguilar Antunes N°23<br>Mateus Menezes Gobbi N°28</p>
+        </ul>
+      </nav>
+    <p class="StyleSla">Site by: Lucas Silva Guimarães</p>
+    </div>
+  <!-- The Beginnig-->
+  <div id="modal-container-1" class="modal-container">
+    <div id="modal-1" class="modal">
+      <button id="close-button" class="close-button">x</button>
+      <h1 class="title">The Beginning</h1>
+      <div id="bg1" class="content">
+        <div>
+          <img src="/img/beginning/gameboy.png" class="images">
+          <p>Game Boy (1989) - Manufactured by Nintedo, it was their second portable console. It was extremely successful, selling more than 100 million copies, with the Game Boy Color. Best selling games: Tetris (1989) and Pokemon Red and Blue (1996).</p>
+        </div>
+        <div>
+          <img src="img/beginning/AtariLynx.png">
+          <p>Atari Lynx (1989) - Manufactured by Atari, it was the first portable console with a color LCD screen. It wasn't very successful, it was expensive compared to the Game Boy and consumed more batteries, sold around 4 million copies. Best selling game: Road blasters (1989).</p>
+        </div>
+        <div>
+          <img src="/img/beginning/gamegear.png">
+          <p>Game Gear (1990) - Manufactured by Sega, it was released to compete with the Game Boy. It wasn't very successuful due the big size and the excessive battery comsuption, sold around 10 million copies. Best selling game: Sonic the Hedgehog 2 (1992).</p>
+          <button id="next-page-1" class="next-page" onclick="nextBg('bg1', 'bg2')">></button>
+        </div>
+      </div>
+      <div id="bg2" class="content">
+        <div>
+          <img src="/img/beginning/neogeo.png" class="images">
+          <p>Neo-Geo (1990) - Manufactured by SNK, it was a very expensive console, initially just for rental. It plays arcade games from SNK, it sold around a million copies. Best selling game: The King of Fighters '95 (1995).</p>
+        </div>
+        <div>
+          <img src="img/beginning/supernintendo.png">
+          <p>Super Nintendo (1990) - Manufactured by Nintendo, it's the successor of the NES. It was extremaly popular during the '90s, it improved the 2D and could render some primitive 3D, like in Star Fox. Best selling game: Super Mario World (1990).</p>
+        </div>
+        <div>
+          <img src="/img/beginning/CDI.png">
+          <p>CD-i (1991) - Manufactured by Philips, it initially was just a media player, in 1991 it was released as a videogame. Few games were released for this console, the most known are licensed by Nintendo, and wasn't successful, just sold about 500.000 copies. Best selling game: Hotel Mario (1994)</p>
+          <button id="next-page-1" class="next-page" onclick="nextBg('bg2', 'bg3')">></button>
+          <button id="previous-page" class="previous-page" onclick="nextBg('bg2', 'bg1')"><</button>
+        </div>
+      </div>
+      <div id="bg3" class="content">
+        <div>
+          <img src="/img/beginning/3do.png" class="images">
+          <p>3DO (1993) - Manufactured by Pansonic, the 3DO is actually a product of 7 companies, that togheter developed it. It was one the first 32-bit consoles, but it was extremely expensive, so it wasn't very sucessful, it sold around 2 million copies. Best selling game: Gex (1995)</p>
+        </div>
+        <div>
+          <img src="img/beginning/amigacd32.png">
+          <p>Amiga CD32 (1993) - Manufactured by Commodore, it was the first CD-rom based console on 32-bit. It wasn't released on the US because a 10 million license was required, it sold around 100.000 copies. Best selling game: Diggers (1993)</p>
+        </div>
+        <div>
+          <img src="/img/beginning/atarijaguar.png">
+          <p>Atari Jaguar (1993) - Manufactured by Atari, it was one of the first 64-bit consoles. Atari had a lot of troubles with the game developers, so not many games were releases, it sold about 250.000 copies. Best selling game: Alien Vs Predator (1994)</p>
+          <button id="next-page-1" class="next-page" onclick="nextBg('bg3', 'bg4')">></button>
+          <button id="previous-page" class="previous-page" onclick="nextBg('bg3', 'bg2')"><</button>
+        </div>
+    </div>
+    <div id="bg4" class="content">
+      <div>
+        <img src="/img/beginning/segasaturn.png" class="images">
+        <p>Sega Saturn (1994) - Manufactured by Sega, the successor of the Genesis. Sega commited some mistakes with the launch of the console, especially in the US, like the non release of any Sonic game, it sold about 9 million copies. Best selling games: Viruta Fighter 2 (1995) and Sega Rally Championship (1995)</p>
+      </div>
+      <div>
+        <img src="img/beginning/ps.png">
+        <p>PlayStation (1994) - Manufactured by Sony, it was their first console. The development of the PS1 started as an attempt to craet a CD-ROM to the Super Nintendo, but it didn't work out. It's the second most sold console in history, it sold about 100 million copies: Best selling game: Gran Turismo (1997)</p>
+      </div>
+      <div>
+        <img src="/img/beginning/virtualboy.png">
+        <p>Virtual Boy (1995) - Manufactured by Nintendo, it was an attempt to make an virtual relaity console. It failed completely, the virtual reality wasn't good, the console displays only red and black, and can cause headaches and seizures. It only sold about 800.000 copies, and has a pretty small library of games. Best selling game: Mario Tennis (1995)</p>
+        <button id="previous-page" class="previous-page" onclick="nextBg('bg4', 'bg3')"><</button>
+      </div>
+  </div>
+  </div>
+  </div>
+  <!-- Evolution Part -->
+  <div id="modal-container-2" class="modal-container">
+    <div id="modal-2" class="modal">
+      <button id="close-button" class="close-button">x</button>
+      <h1 class="title">Evolution of The 2D and The start of The 3D</h1>
+      <div id="ev1" class="content">
+        <div>
+          <img src="/img/evolution3d/gameboy.png" class="images">
+          <p>Game Boy (1989) - Manufactured by Nintedo, it was their second portable console. It was extremely successful, selling more than 100 million copies, with the Game Boy Color. Best selling games: Tetris (1989) and Pokemon Red and Blue (1996).</p>
+        </div>
+        <div>
+          <img src="img/evolution3d/AtariLynx.png">
+          <p>Atari Lynx (1989) - Manufactured by Atari, it was the first portable console with a color LCD screen. It wasn't very successful, it was expensive compared to the Game Boy and consumed more batteries, sold around 4 million copies. Best selling game: Road blasters (1989).</p>
+        </div>
+        <div>
+          <img src="/img/evolution3d/gamegear.png">
+          <p>Game Gear (1990) - Manufactured by Sega, it was released to compete with the Game Boy. It wasn't very successuful due the big size and the excessive battery comsuption, sold around 10 million copies. Best selling game: Sonic the Hedgehog 2 (1992).</p>
+          <button id="next-page-1" class="next-page" onclick="nextEv('ev1', 'ev2')">></button>
+        </div>
+      </div>
+      <div id="ev2" class="content">
+        <div>
+          <img src="/img/evolution3d/neogeo.png" class="images">
+          <p>Neo-Geo (1990) - Manufactured by SNK, it was a very expensive console, initially just for rental. It plays arcade games from SNK, it sold around a million copies. Best selling game: The King of Fighters '95 (1995).</p>
+        </div>
+        <div>
+          <img src="img/evolution3d/supernintendo.png">
+          <p>Super Nintendo (1990) - Manufactured by Nintendo, it's the successor of the NES. It was extremaly popular during the '90s, it improved the 2D and could render some primitive 3D, like in Star Fox. Best selling game: Super Mario World (1990).</p>
+        </div>
+        <div>
+          <img src="/img/evolution3d/CDI.png">
+          <p>CD-i (1991) - Manufactured by Philips, it initially was just a media player, in 1991 it was released as a videogame. Few games were released for this console, the most known are licensed by Nintendo, and wasn't successful, just sold about 500.000 copies. Best selling game: Hotel Mario (1994)</p>
+          <button id="next-page-1" class="next-page" onclick="nextEv('ev2', 'ev3')">></button>
+          <button id="previous-page" class="previous-page" onclick="nextEv('ev2', 'ev1')"><</button>
+        </div>
+      </div>
+      <div id="ev3" class="content">
+        <div>
+          <img src="/img/evolution3d/3do.png" class="images">
+          <p>3DO (1993) - Manufactured by Pansonic, the 3DO is actually a product of 7 companies, that togheter developed it. It was one the first 32-bit consoles, but it was extremely expensive, so it wasn't very sucessful, it sold around 2 million copies. Best selling game: Gex (1995)</p>
+        </div>
+        <div>
+          <img src="img/evolution3d/amigacd32.png">
+          <p>Amiga CD32 (1993) - Manufactured by Commodore, it was the first CD-rom based console on 32-bit. It wasn't released on the US because a 10 million license was required, it sold around 100.000 copies. Best selling game: Diggers (1993)</p>
+        </div>
+        <div>
+          <img src="/img/evolution3d/atarijaguar.png">
+          <p>Atari Jaguar (1993) - Manufactured by Atari, it was one of the first 64-bit consoles. Atari had a lot of troubles with the game developers, so not many games were releases, it sold about 250.000 copies. Best selling game: Alien Vs Predator (1994)</p>
+          <button id="next-page-1" class="next-page" onclick="nextEv('ev3', 'ev4')">></button>
+          <button id="previous-page" class="previous-page" onclick="nextEv('ev3', 'ev2')"><</button>
+        </div>
+    </div>
+    <div id="ev4" class="content">
+      <div>
+        <img src="/img/evolution3d/segasaturn.png" class="images">
+        <p>Sega Saturn (1994) - Manufactured by Sega, the successor of the Genesis. Sega commited some mistakes with the launch of the console, especially in the US, like the non release of any Sonic game, it sold about 9 million copies. Best selling games: Viruta Fighter 2 (1995) and Sega Rally Championship (1995)</p>
+      </div>
+      <div>
+        <img src="img/evolution3d/ps.png">
+        <p>PlayStation (1994) - Manufactured by Sony, it was their first console. The development of the PS1 started as an attempt to craet a CD-ROM to the Super Nintendo, but it didn't work out. It's the second most sold console in history, it sold about 100 million copies: Best selling game: Gran Turismo (1997)</p>
+      </div>
+      <div>
+        <img src="/img/evolution3d/virtualboy.png">
+        <p>Virtual Boy (1995) - Manufactured by Nintendo, it was an attempt to make an virtual relaity console. It failed completely, the virtual reality wasn't good, the console displays only red and black, and can cause headaches and seizures. It only sold about 800.000 copies, and has a pretty small library of games. Best selling game: Mario Tennis (1995)</p>
+        <button id="previous-page" class="previous-page" onclick="nextEv('ev4', 'ev3')"><</button>
+      </div>
+  </div>
+  </div>
+  </div>
+<!-- Xbox X Playstation-->
+  <div id="modal-container-3" class="modal-container">
+    <div id="modal-3" class="modal">
+      <button id="close-button" class="close-button">x</button>
+      <h1 class="title">Title?</h1>
+      <div id="px1" class="content">
+      <div>
+        <img src="/img/playbox/PlayStation2.png" class="images">
+        <p>PS2 (2000), manufactured by Sony.  The PS2 is one of the best-selling consoles of all time, with more than 155 million units sold, and the best-selling game was Grand Theft Auto: San Andreas with 17 million copies sold.</p>
+      </div>
+      <div>
+        <img src="img/playbox/GameBoy.jpeg">
+        <p>Game Boy Advance (2001) manufactured by Nintendo.  The Game Boy Advance Game became popular among people who like classic games, and the best-selling game was Pokémon Ruby and Sapphire with 16 million copies sold.</p>
+      </div>
+      <div>
+        <img src="/img/playbox/xbox.jpg">
+        <p>Xbox (2001) manufactured by Microsoft.  The Xbox was the first console offered by an American company after the Atari Jaguar stopped selling, and the best-selling game was Halo 2 with 8 million copies sold.</p>
+        <button id="next-page-1" class="next-page" onclick="nextPx('px1', 'px2')">></button>
+      </div>
+    </div>
+    <div id="px2" class="content">
+      <div>
+        <img src="/img/beginning/neogeo.png" class="images">
+        <p>Gamecube (2001) manufactured by Nintendo.  The GameCube is the first Nintendo console to use optical discs as its primary storage medium, and the best-selling game was Super Smash Bros.  Melee with 7 million copies sold.</p>
+      </div>
+      <div>
+        <img src="img/beginning/supernintendo.png">
+        <p>SwanCrystal (2002) manufactured by Bandai.  SwanCrystal had a low price, and it allowed to play in both horizontal and vertical position.</p>
+      </div>
+      <div>
+        <img src="/img/beginning/CDI.png">
+        <p>Atari Flashback (2004) manufactured by Atari.  The Atari Flashback system had twenty built-in games.</p>
+        <button id="next-page-1" class="next-page" onclick="nextPx('px2', 'px3')">></button>
+        <button id="previous-page" class="previous-page" onclick="nextPx('px2', 'px1')"><</button>
+      </div>
+    </div>
+    <div id="px3" class="content">
+      <div>
+        <img src="/img/beginning/3do.png" class="images">
+        <p>Nintendo DS (2004) manufactured by Nintendo.  It had 154 million units sold.  The letters DS in the name were created to mean both the expression Dual Screen and the best-selling game was New Super Mario Bros. with 30 million copies sold.</p>
+      </div>
+      <div>
+        <img src="img/beginning/amigacd32.png">
+        <p>PSP (2004) manufactured by Sony.  The PSP has other functions in addition to games, such as an audio player, video player and wireless Internet access via Wi-Fi, and the best-selling game was Grand Theft Auto: Liberty City Stories with 6.5 million copies sold.</p>
+      </div>
+      <div>
+        <img src="/img/beginning/atarijaguar.png">
+        <p>Xbox 360 (2005) manufactured by Microsoft.  Xbox 360 becoming one of the best selling consoles made by an American company with 85 million units sold and the best selling game was Kinect Adventures with 21 million copies sold.</p>
+        <button id="next-page-1" class="next-page" onclick="nextPx('px3', 'px4')">></button>
+        <button id="previous-page" class="previous-page" onclick="nextPx('px3', 'px2')"><</button>
+      </div>
+  </div>
+  <div id="px4" class="content">
+    <div>
+      <img src="/img/beginning/segasaturn.png" class="images">
+      <p>PS3 (2006) manufactured by Sony.  It had 87.5 million units sold and was the first console to use the Blu-ray disc as a media format for recording games, and the best-selling game was Grand Theft Auto V with 28 million copies sold.</p>
+    </div>
+    <div>
+      <img src="img/playbox/wii.jpg">
+      <p>Wii (2006) manufactured by Nintendo.  The Wii had 100 million units sold and was Nintendo's smallest home console at the time and the best-selling game was Wii Sports with 82 million copies sold.</p>
+    </div>
+    <div>
+      <img src="/img/beginning/virtualboy.png">
+      <p>Nintendo  DSI (2008)manufactured by Nintendo.  It is one of Nintendo's last handheld video games, and the DSi ended its activities in 2017.</p>
+      <button id="next-page-1" class="next-page" onclick="nextPx('px4', 'px5')">></button>
+      <button id="previous-page" class="previous-page" onclick="nextPx('px4', 'px3')"><</button>
+    </div>
+</div>
+<div id="px5" class="content">
+  <div>
+    <img src="/img/playbox/pspgo.jpg" class="images">
+    <p>PSP GO (2009) manufactured by Sony.  The biggest innovation that the PSP Go brings is the fact that it has bluetooth, in addition to having wi-fi and 16Gb of internal memory.</p>
+  </div>
+  <div>
+    <img src="img/playbox/PsMove.jpg">
+    <p>PlayStation Move (2010) manufactured by Sony.  The PlayStation Move is a motion controller initially created for use in the PlayStation 3.</p>
+    <button id="previous-page" class="previous-page" onclick="nextPx('px5', 'px4')"><</button>
+  </div>
+</div>
+</div>
+</div>
+<!-- How it's Now -->
+  <div id="modal-container-4" class="modal-container">
+    <div id="modal-4" class="modal">
+      <button id="close-button" class="close-button">x</button>
+      <h3 class="title">How it's now</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="/script/modal.js"></script>
+  <script type="text/javascript" src="/script/reveal.js"></script>
+</body>
+</html>
