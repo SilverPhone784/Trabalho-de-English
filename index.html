@@ -69,6 +69,39 @@
       <h1 class="title">The Beginning</h1>
       <div id="bg1" class="content">
         <div>
+          <img src="/img/beginning/odyssey.png" class="images">
+          <p> Odyssey (1971) Magnavox develops the Odyssey 100, the first video games to be connected to a TV. Nolon Bushmell creates Space computer the world's first arcade for spacewar games. In the following years odyssey 200,300,400,500,3000 and 4000 came out.</p>
+        </div>
+        <div>
+          <img src="img/beginning/pong.png">
+          <p>1976- Launch of Telstar Pong video game- Faurchild Camera Instrument launches Fairchild Channel F, the 1st programmable video game.</p>
+        </div>
+        <div>
+          <img src="/img/beginning/atari.png">
+          <p>1977- Atari launches chuck and cheese Midway games launches the first gunfght game to use micro-ccessors. Developed by Taito of Japan genfight. Attract develops the VCS later called the Atari 2600.</p>
+          <button id="next-page-1" class="next-page" onclick="nextEv('bg1', 'bg2')">></button>
+        </div>
+      </div>
+      <div id="bg2" class="content">
+        <div>
+          <img src="/img/beginning/NES.png" class="images">
+          <p>1986, the NES was one of the most outstanding consoles of its generation. He already had games like Super Mario Bros, The Legends of Zelda and Excitebike. The video game worked with 8-bit technology, and also had a slot for cartridges, in addition to its classic controls with square corners.</p>
+        </div>
+        <div>
+          <img src="img/beginning/Sega Genesis.png">
+          <p>1988 - Sega Genesis is a 16-bit video game console from Sega that competed directly with the Super Nintendo Entertainment System. The console was very successful in the 1990s, losing ground after the emergence and popularization of the new generation of 32-bit consoles, such as Sony's PlayStation.</p>
+          <button id="previous-page" class="previous-page" onclick="nextBg('bg2', 'bg1')"><</button>
+        </div>
+      </div>
+  </div>
+  </div>
+  <!-- Evolution Part -->
+  <div id="modal-container-2" class="modal-container">
+    <div id="modal-2" class="modal">
+      <button id="close-button" class="close-button">x</button>
+      <h1 class="title">Evolution of The 2D and The start of The 3D</h1>
+      <div id="ev1" class="content">
+        <div>
           <img src="/img/beginning/gameboy.png" class="images">
           <p>Game Boy (1989) - Manufactured by Nintedo, it was their second portable console. It was extremely successful, selling more than 100 million copies, with the Game Boy Color. Best selling games: Tetris (1989) and Pokemon Red and Blue (1996).</p>
         </div>
@@ -79,10 +112,10 @@
         <div>
           <img src="/img/beginning/gamegear.png">
           <p>Game Gear (1990) - Manufactured by Sega, it was released to compete with the Game Boy. It wasn't very successuful due the big size and the excessive battery comsuption, sold around 10 million copies. Best selling game: Sonic the Hedgehog 2 (1992).</p>
-          <button id="next-page-1" class="next-page" onclick="nextBg('bg1', 'bg2')">></button>
+          <button id="next-page-1" class="next-page" onclick="nextEv('ev1', 'ev2')">></button>
         </div>
       </div>
-      <div id="bg2" class="content">
+      <div id="ev2" class="content">
         <div>
           <img src="/img/beginning/neogeo.png" class="images">
           <p>Neo-Geo (1990) - Manufactured by SNK, it was a very expensive console, initially just for rental. It plays arcade games from SNK, it sold around a million copies. Best selling game: The King of Fighters '95 (1995).</p>
@@ -94,11 +127,11 @@
         <div>
           <img src="/img/beginning/CDI.png">
           <p>CD-i (1991) - Manufactured by Philips, it initially was just a media player, in 1991 it was released as a videogame. Few games were released for this console, the most known are licensed by Nintendo, and wasn't successful, just sold about 500.000 copies. Best selling game: Hotel Mario (1994)</p>
-          <button id="next-page-1" class="next-page" onclick="nextBg('bg2', 'bg3')">></button>
-          <button id="previous-page" class="previous-page" onclick="nextBg('bg2', 'bg1')"><</button>
+          <button id="next-page-1" class="next-page" onclick="nextEv('ev2', 'ev3')">></button>
+          <button id="previous-page" class="previous-page" onclick="nextEv('ev2', 'ev1')"><</button>
         </div>
       </div>
-      <div id="bg3" class="content">
+      <div id="ev3" class="content">
         <div>
           <img src="/img/beginning/3do.png" class="images">
           <p>3DO (1993) - Manufactured by Pansonic, the 3DO is actually a product of 7 companies, that togheter developed it. It was one the first 32-bit consoles, but it was extremely expensive, so it wasn't very sucessful, it sold around 2 million copies. Best selling game: Gex (1995)</p>
@@ -110,11 +143,11 @@
         <div>
           <img src="/img/beginning/atarijaguar.png">
           <p>Atari Jaguar (1993) - Manufactured by Atari, it was one of the first 64-bit consoles. Atari had a lot of troubles with the game developers, so not many games were releases, it sold about 250.000 copies. Best selling game: Alien Vs Predator (1994)</p>
-          <button id="next-page-1" class="next-page" onclick="nextBg('bg3', 'bg4')">></button>
-          <button id="previous-page" class="previous-page" onclick="nextBg('bg3', 'bg2')"><</button>
+          <button id="next-page-1" class="next-page" onclick="nextBg('ev3', 'ev4')">></button>
+          <button id="previous-page" class="previous-page" onclick="nextEv('ev3', 'ev2')"><</button>
         </div>
     </div>
-    <div id="bg4" class="content">
+    <div id="ev4" class="content">
       <div>
         <img src="/img/beginning/segasaturn.png" class="images">
         <p>Sega Saturn (1994) - Manufactured by Sega, the successor of the Genesis. Sega commited some mistakes with the launch of the console, especially in the US, like the non release of any Sonic game, it sold about 9 million copies. Best selling games: Viruta Fighter 2 (1995) and Sega Rally Championship (1995)</p>
@@ -125,75 +158,6 @@
       </div>
       <div>
         <img src="/img/beginning/virtualboy.png">
-        <p>Virtual Boy (1995) - Manufactured by Nintendo, it was an attempt to make an virtual relaity console. It failed completely, the virtual reality wasn't good, the console displays only red and black, and can cause headaches and seizures. It only sold about 800.000 copies, and has a pretty small library of games. Best selling game: Mario Tennis (1995)</p>
-        <button id="previous-page" class="previous-page" onclick="nextBg('bg4', 'bg3')"><</button>
-      </div>
-  </div>
-  </div>
-  </div>
-  <!-- Evolution Part -->
-  <div id="modal-container-2" class="modal-container">
-    <div id="modal-2" class="modal">
-      <button id="close-button" class="close-button">x</button>
-      <h1 class="title">Evolution of The 2D and The start of The 3D</h1>
-      <div id="ev1" class="content">
-        <div>
-          <img src="/img/evolution3d/gameboy.png" class="images">
-          <p>Game Boy (1989) - Manufactured by Nintedo, it was their second portable console. It was extremely successful, selling more than 100 million copies, with the Game Boy Color. Best selling games: Tetris (1989) and Pokemon Red and Blue (1996).</p>
-        </div>
-        <div>
-          <img src="img/evolution3d/AtariLynx.png">
-          <p>Atari Lynx (1989) - Manufactured by Atari, it was the first portable console with a color LCD screen. It wasn't very successful, it was expensive compared to the Game Boy and consumed more batteries, sold around 4 million copies. Best selling game: Road blasters (1989).</p>
-        </div>
-        <div>
-          <img src="/img/evolution3d/gamegear.png">
-          <p>Game Gear (1990) - Manufactured by Sega, it was released to compete with the Game Boy. It wasn't very successuful due the big size and the excessive battery comsuption, sold around 10 million copies. Best selling game: Sonic the Hedgehog 2 (1992).</p>
-          <button id="next-page-1" class="next-page" onclick="nextEv('ev1', 'ev2')">></button>
-        </div>
-      </div>
-      <div id="ev2" class="content">
-        <div>
-          <img src="/img/evolution3d/neogeo.png" class="images">
-          <p>Neo-Geo (1990) - Manufactured by SNK, it was a very expensive console, initially just for rental. It plays arcade games from SNK, it sold around a million copies. Best selling game: The King of Fighters '95 (1995).</p>
-        </div>
-        <div>
-          <img src="img/evolution3d/supernintendo.png">
-          <p>Super Nintendo (1990) - Manufactured by Nintendo, it's the successor of the NES. It was extremaly popular during the '90s, it improved the 2D and could render some primitive 3D, like in Star Fox. Best selling game: Super Mario World (1990).</p>
-        </div>
-        <div>
-          <img src="/img/evolution3d/CDI.png">
-          <p>CD-i (1991) - Manufactured by Philips, it initially was just a media player, in 1991 it was released as a videogame. Few games were released for this console, the most known are licensed by Nintendo, and wasn't successful, just sold about 500.000 copies. Best selling game: Hotel Mario (1994)</p>
-          <button id="next-page-1" class="next-page" onclick="nextEv('ev2', 'ev3')">></button>
-          <button id="previous-page" class="previous-page" onclick="nextEv('ev2', 'ev1')"><</button>
-        </div>
-      </div>
-      <div id="ev3" class="content">
-        <div>
-          <img src="/img/evolution3d/3do.png" class="images">
-          <p>3DO (1993) - Manufactured by Pansonic, the 3DO is actually a product of 7 companies, that togheter developed it. It was one the first 32-bit consoles, but it was extremely expensive, so it wasn't very sucessful, it sold around 2 million copies. Best selling game: Gex (1995)</p>
-        </div>
-        <div>
-          <img src="img/evolution3d/amigacd32.png">
-          <p>Amiga CD32 (1993) - Manufactured by Commodore, it was the first CD-rom based console on 32-bit. It wasn't released on the US because a 10 million license was required, it sold around 100.000 copies. Best selling game: Diggers (1993)</p>
-        </div>
-        <div>
-          <img src="/img/evolution3d/atarijaguar.png">
-          <p>Atari Jaguar (1993) - Manufactured by Atari, it was one of the first 64-bit consoles. Atari had a lot of troubles with the game developers, so not many games were releases, it sold about 250.000 copies. Best selling game: Alien Vs Predator (1994)</p>
-          <button id="next-page-1" class="next-page" onclick="nextEv('ev3', 'ev4')">></button>
-          <button id="previous-page" class="previous-page" onclick="nextEv('ev3', 'ev2')"><</button>
-        </div>
-    </div>
-    <div id="ev4" class="content">
-      <div>
-        <img src="/img/evolution3d/segasaturn.png" class="images">
-        <p>Sega Saturn (1994) - Manufactured by Sega, the successor of the Genesis. Sega commited some mistakes with the launch of the console, especially in the US, like the non release of any Sonic game, it sold about 9 million copies. Best selling games: Viruta Fighter 2 (1995) and Sega Rally Championship (1995)</p>
-      </div>
-      <div>
-        <img src="img/evolution3d/ps.png">
-        <p>PlayStation (1994) - Manufactured by Sony, it was their first console. The development of the PS1 started as an attempt to craet a CD-ROM to the Super Nintendo, but it didn't work out. It's the second most sold console in history, it sold about 100 million copies: Best selling game: Gran Turismo (1997)</p>
-      </div>
-      <div>
-        <img src="/img/evolution3d/virtualboy.png">
         <p>Virtual Boy (1995) - Manufactured by Nintendo, it was an attempt to make an virtual relaity console. It failed completely, the virtual reality wasn't good, the console displays only red and black, and can cause headaches and seizures. It only sold about 800.000 copies, and has a pretty small library of games. Best selling game: Mario Tennis (1995)</p>
         <button id="previous-page" class="previous-page" onclick="nextEv('ev4', 'ev3')"><</button>
       </div>
@@ -285,9 +249,82 @@
   <div id="modal-container-4" class="modal-container">
     <div id="modal-4" class="modal">
       <button id="close-button" class="close-button">x</button>
-      <h3 class="title">How it's now</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h1 class="title">How it's now</h1>
+      <div id="hn1" class="content">
+        <div>
+          <img src="/img/howitsnow/3ds.png" class="images">
+          <p>Nintendo 3DS(2011)</p>
+        </div>
+        <div>
+          <img src="img/howitsnow/psvita.png">
+          <p>PlayStation Vita (2011)</p> 
+        </div>
+        <div>
+          <img src="/img/howitsnow/wiiu.png">
+          <p>Nintedo Wii U (2012)</p>
+          <button id="next-page-1" class="next-page" onclick="nextHn('hn1', 'hn2')">></button>
+        </div>
+      </div>
+      <div id="hn2" class="content">
+        <div>
+          <img src="/img/howitsnow/neogeoX.png" class="images">
+          <p>Neo Geo X (2012)</p>  
+        </div>
+        <div>
+          <img src="img/howitsnow/ouya.png">
+          <p>Ouya (2013)</p> 
+        </div>
+        <div>
+          <img src="/img/howitsnow/Shiel Portable.png">
+          <p>Shield Portable (2013)</p>
+          <button id="next-page-1" class="next-page" onclick="nextHn('hn2', 'hn3')">></button>
+          <button id="previous-page" class="previous-page" onclick="nextHn('hn2', 'hn1')"><</button>
+        </div>
+      </div>
+      <div id="hn3" class="content">
+        <div>
+          <img src="/img/howitsnow/Ps4.png" class="images">
+          <p>PlayStation 4 (2013)</p> 
+        </div>
+        <div>
+          <img src="img/howitsnow/xboxOne.png">
+          <p>Xbox One (2013)</p> 
+        </div>
+        <div>
+          <img src="/img/howitsnow/switch.png">
+          <p>Nintendo Switch (2017)</p>
+          <button id="next-page-1" class="next-page" onclick="nextHn('hn3', 'hn4')">></button>
+          <button id="previous-page" class="previous-page" onclick="nextHn('hn3', 'hn2')"><</button>
+        </div>
     </div>
+    <div id="hn4" class="content">
+      <div>
+        <img src="/img/howitsnow/XboxSeriesX.png" class="images">
+        <p>Xbox Series X/S (2020)</p>  
+      </div>
+      <div>
+        <img src="img/howitsnow/ps5.png">
+        <p>PlayStation 5 (2020)</p>
+        </div>
+      <div>
+        <img src="/img/howitsnow/atari.png">
+        <p>Atari VCS (2020)</p>
+        <button id="next-page-1" class="next-page" onclick="nextHn('hn4', 'hn5')">></button>
+        <button id="previous-page" class="previous-page" onclick="nextHn('hn4', 'hn3')"><</button>
+      </div>
+  </div>
+  <div id="hn5" class="content">
+    <div>
+      <img src="/img/howitsnow/intelivision.png" class="images">
+      <p>Intellivision Amico (2021)</p>  
+    </div>
+    <div>
+      <img src="img/howitsnow/SteamDeck.png">
+      <p>Steam Deck (2021)</p>
+      <button id="previous-page" class="previous-page" onclick="nextHn('hn5', 'hn4')"><</button>
+    </div>
+  </div>
+  </div>
   </div>
 
   <script type="text/javascript" src="/script/modal.js"></script>

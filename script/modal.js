@@ -7,6 +7,7 @@ function box(modalId) {
             nextBg('none', 'bg1')
             nextEv('none', 'ev1')
             nextPx('none', 'px1')
+            nextHn('none', 'hn1')
         }
     })
 }
@@ -40,6 +41,18 @@ function nextPx(id, newbox) {
         const px3 = document.getElementById('px3').style.display = 'none'
         const px4 = document.getElementById('px4').style.display = 'none'
         const px5 = document.getElementById('px5').style.display = 'none'
+    } else {
+    const modal = document.getElementById(id).style.display = 'none'
+    const modal2 = document.getElementById(newbox).style.display = 'inline-flex'
+}
+}
+function nextHn(id, newbox) {
+    if(id == 'none') {
+        const inicial = document.getElementById(newbox).style.display = 'inline-flex'
+        const px2 = document.getElementById('hn2').style.display = 'none'
+        const px3 = document.getElementById('hn3').style.display = 'none'
+        const px4 = document.getElementById('hn4').style.display = 'none'
+        const px5 = document.getElementById('hn5').style.display = 'none'
     } else {
     const modal = document.getElementById(id).style.display = 'none'
     const modal2 = document.getElementById(newbox).style.display = 'inline-flex'
